@@ -1,22 +1,22 @@
 *PPD-Adobe: "4.3"
-*%%%% PPD file for CLP-310 with CUPS.
+*%%%% PPD file for ML-1860 with CUPS.
 *%%%% Created by the CUPS PPD Compiler CUPS v1.5.0.
 *FormatVersion: "4.3"
 *FileVersion: "2.0.0"
 *LanguageVersion: English
 *LanguageEncoding: ISOLatin1
-*PCFileName: "clp310.ppd"
-*Product: "(CLP-310)"
+*PCFileName: "ml1860.ppd"
+*Product: "(ML-1860)"
 *Manufacturer: "Samsung"
-*ModelName: "Samsung CLP-310"
-*ShortNickName: "Samsung CLP-310"
-*NickName: "Samsung CLP-310, 2.0.0"
+*ModelName: "Samsung ML-1860"
+*ShortNickName: "Samsung ML-1860"
+*NickName: "Samsung ML-1860 rshev, 2.0.0"
 *PSVersion: "(3010.000) 0"
 *LanguageLevel: "3"
-*ColorDevice: True
-*DefaultColorSpace: RGB
+*ColorDevice: False
+*DefaultColorSpace: Gray
 *FileSystem: False
-*Throughput: "4"
+*Throughput: "21"
 *LandscapeOrientation: Plus90
 *TTRasterizer: Type42
 *% Driver-defined attributes...
@@ -28,15 +28,14 @@
 *QPDL QPDLVersion: "5"
 *QPDL PacketSize: "512"
 *General DocHeaderValues: "<0><0><1>"
-*General CMSFile: "CLP-310"
 *cupsVersion: 1.5
 *cupsModelNumber: 0
 *cupsManualCopies: False
-*cupsFilter: "application/vnd.cups-postscript 0 pstoqpdl"
+*cupsFilter: "application/vnd.cups-raster 0 rastertoqpdl"
 *cupsLanguages: "en"
 *OpenUI *PageSize/Media Size: PickOne
 *OrderDependency: 10 AnySetup *PageSize
-*DefaultPageSize: Letter
+*DefaultPageSize: A4
 *PageSize Letter/US Letter: "<</PageSize[612 792]/ImagingBBox null>>setpagedevice"
 *PageSize Legal/US Legal: "<</PageSize[612 1008]/ImagingBBox null>>setpagedevice"
 *PageSize A4/A4: "<</PageSize[595 842]/ImagingBBox null>>setpagedevice"
@@ -63,7 +62,7 @@
 *CloseUI: *PageSize
 *OpenUI *PageRegion/Media Size: PickOne
 *OrderDependency: 10 AnySetup *PageRegion
-*DefaultPageRegion: Letter
+*DefaultPageRegion: A4
 *PageRegion Letter/US Letter: "<</PageSize[612 792]/ImagingBBox null>>setpagedevice"
 *PageRegion Legal/US Legal: "<</PageSize[612 1008]/ImagingBBox null>>setpagedevice"
 *PageRegion A4/A4: "<</PageSize[595 842]/ImagingBBox null>>setpagedevice"
@@ -88,7 +87,7 @@
 *PageRegion Env9/Envelope #9: "<</PageSize[279 639]/ImagingBBox null>>setpagedevice"
 *PageRegion Oficio/Oficio - 216x340mm: "<</PageSize[612 972]/ImagingBBox null>>setpagedevice"
 *CloseUI: *PageRegion
-*DefaultImageableArea: Letter
+*DefaultImageableArea: A4
 *ImageableArea Letter/US Letter: "12 12 600 780"
 *ImageableArea Legal/US Legal: "12 12 600 996"
 *ImageableArea A4/A4: "12 12 583 830"
@@ -112,7 +111,7 @@
 *ImageableArea EnvPersonal/Envelope Personal: "12 12 249 456"
 *ImageableArea Env9/Envelope #9: "12 12 267 627"
 *ImageableArea Oficio/Oficio - 216x340mm: "12 12 600 960"
-*DefaultPaperDimension: Letter
+*DefaultPaperDimension: A4
 *PaperDimension Letter/US Letter: "612 792"
 *PaperDimension Legal/US Legal: "612 1008"
 *PaperDimension A4/A4: "595 842"
@@ -136,21 +135,6 @@
 *PaperDimension EnvPersonal/Envelope Personal: "261 468"
 *PaperDimension Env9/Envelope #9: "279 639"
 *PaperDimension Oficio/Oficio - 216x340mm: "612 972"
-*MaxMediaWidth: "612"
-*MaxMediaHeight: "1008"
-*HWMargins: 12 12 12 12
-*CustomPageSize True: "pop pop pop <</PageSize[5 -2 roll]/ImagingBBox null>>setpagedevice"
-*ParamCustomPageSize Width: 1 points 216 612
-*ParamCustomPageSize Height: 2 points 453.600006103516 1008
-*ParamCustomPageSize WidthOffset: 3 points 0 0
-*ParamCustomPageSize HeightOffset: 4 points 0 0
-*ParamCustomPageSize Orientation: 5 int 0 0
-*OpenUI *Altitude/Air pressure: PickOne
-*OrderDependency: 10 AnySetup *Altitude
-*DefaultAltitude: LOW
-*Altitude LOW/High: ""
-*Altitude HIGH/Low: ""
-*CloseUI: *Altitude
 *OpenUI *InputSlot/Media Source: PickOne
 *OrderDependency: 10 AnySetup *InputSlot
 *DefaultInputSlot: Auto
@@ -189,15 +173,14 @@
 *OpenUI *Resolution/Resolution: PickOne
 *OrderDependency: 10 AnySetup *Resolution
 *DefaultResolution: 600dpi
-*Resolution 600dpi/600 DPI: "<</HWResolution[600 600]/cupsBitsPerColor 1/cupsRowCount 0/cupsRowFeed 0/cupsRowStep 0>>setpagedevice"
-*Resolution 1200x600dpi/1200x600 DPI: "<</HWResolution[1200 600]/cupsBitsPerColor 1/cupsRowCount 0/cupsRowFeed 0/cupsRowStep 0>>setpagedevice"
-*Resolution 1200dpi/1200 DPI: "<</HWResolution[1200 1200]/cupsBitsPerColor 1/cupsRowCount 0/cupsRowFeed 0/cupsRowStep 0>>setpagedevice"
+*Resolution 600dpi/600 DPI: "<</HWResolution[600 600]/cupsBitsPerColor 1/cupsRowCount 0/cupsRowFeed 0/cupsRowStep 0/cupsColorSpace 3>>setpagedevice"
+*Resolution 1200x600dpi/1200x600 DPI: "<</HWResolution[1200 600]/cupsBitsPerColor 1/cupsRowCount 0/cupsRowFeed 0/cupsRowStep 0/cupsColorSpace 3>>setpagedevice"
+*Resolution 1200dpi/1200 DPI: "<</HWResolution[1200 1200]/cupsBitsPerColor 1/cupsRowCount 0/cupsRowFeed 0/cupsRowStep 0/cupsColorSpace 3>>setpagedevice"
 *CloseUI: *Resolution
 *OpenUI *ColorModel/Color Mode: PickOne
 *OrderDependency: 10 AnySetup *ColorModel
-*DefaultColorModel: CMYK
+*DefaultColorModel: Gray
 *ColorModel Gray/Grayscale: "<</cupsColorSpace 3/cupsColorOrder 0/cupsCompression 21>>setpagedevice"
-*ColorModel CMYK/Color: "<</cupsColorSpace 6/cupsColorOrder 1/cupsCompression 21>>setpagedevice"
 *CloseUI: *ColorModel
 *OpenUI *Duplex/2-Sided Printing: PickOne
 *OrderDependency: 10 AnySetup *Duplex
@@ -242,4 +225,4 @@
 *Font Times-Roman: Standard "(1.05)" Standard ROM
 *Font ZapfChancery-MediumItalic: Standard "(1.05)" Standard ROM
 *Font ZapfDingbats: Special "(001.005)" Special ROM
-*% End of clp310.ppd, 12242 bytes.
+*% End of ml1860.ppd.
